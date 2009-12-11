@@ -1,0 +1,56 @@
+<xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'
+	xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'
+	xmlns:rs='urn:schemas-microsoft-com:rowset'
+	xmlns:z='#RowsetSchema'>
+<s:Schema id='RowsetSchema'>
+	<s:ElementType name='row' content='eltOnly' rs:updatable='true'>
+		<s:AttributeType name='C0911' rs:number='1' rs:nullable='true' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='C09' rs:basecolumn='C0911'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='20'/>
+		</s:AttributeType>
+		<s:AttributeType name='C0912' rs:number='2' rs:nullable='true' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='C09' rs:basecolumn='C0912'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='40'/>
+		</s:AttributeType>
+		<s:AttributeType name='C0941' rs:number='3' rs:nullable='true' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='C09' rs:basecolumn='C0941'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='25'/>
+		</s:AttributeType>
+		<s:AttributeType name='C0915' rs:number='4' rs:nullable='true' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='C09' rs:basecolumn='C0915'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='40'/>
+		</s:AttributeType>
+		<s:AttributeType name='C0931' rs:number='5' rs:nullable='true' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='C09' rs:basecolumn='C0931'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='2'/>
+		</s:AttributeType>
+		<s:AttributeType name='C0903' rs:number='6' rs:nullable='true' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='C09' rs:basecolumn='C0903'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50'/>
+		</s:AttributeType>
+		<s:AttributeType name='A0000' rs:number='7' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='C09' rs:basecolumn='A0000' rs:keycolumn='true'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='C0904' rs:number='8' rs:nullable='true' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='C09' rs:basecolumn='C0904'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='8'/>
+		</s:AttributeType>
+		<s:AttributeType name='C0914' rs:number='9' rs:nullable='true' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='C09' rs:basecolumn='C0914'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='9'/>
+		</s:AttributeType>
+		<s:AttributeType name='C0917' rs:number='10' rs:nullable='true' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='C09' rs:basecolumn='C0917'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='9'/>
+		</s:AttributeType>
+		<s:AttributeType name='C0921' rs:number='11' rs:nullable='true' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='C09' rs:basecolumn='C0921'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='9'/>
+		</s:AttributeType>
+		<s:extends type='rs:rowbase'/>
+	</s:ElementType>
+</s:Schema>
+<rs:data>
+</rs:data>
+</xml>

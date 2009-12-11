@@ -1,0 +1,68 @@
+<xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'
+	xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'
+	xmlns:rs='urn:schemas-microsoft-com:rowset'
+	xmlns:z='#RowsetSchema'>
+<s:Schema id='RowsetSchema'>
+	<s:ElementType name='row' content='eltOnly' rs:updatable='true'>
+		<s:AttributeType name='A0000' rs:number='1' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='A02' rs:basecolumn='A0000' rs:keycolumn='true'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='A0201' rs:number='2' rs:nullable='true' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='A02' rs:basecolumn='A0201'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='68'/>
+		</s:AttributeType>
+		<s:AttributeType name='A0201A' rs:number='3' rs:nullable='true' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='A02' rs:basecolumn='A0201A'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='70'/>
+		</s:AttributeType>
+		<s:AttributeType name='A0203' rs:number='4' rs:nullable='true' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='A02' rs:basecolumn='A0203'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='68'/>
+		</s:AttributeType>
+		<s:AttributeType name='A0215' rs:number='5' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='A02' rs:basecolumn='A0215' rs:keycolumn='true'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='9' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='A0217' rs:number='6' rs:nullable='true' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='A02' rs:basecolumn='A0217'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='100'/>
+		</s:AttributeType>
+		<s:AttributeType name='A0221' rs:number='7' rs:nullable='true' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='A02' rs:basecolumn='A0221'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='9'/>
+		</s:AttributeType>
+		<s:AttributeType name='A0223' rs:number='8' rs:nullable='true' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='A02' rs:basecolumn='A0223'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='2'/>
+		</s:AttributeType>
+		<s:AttributeType name='A0241' rs:number='9' rs:nullable='true' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='A02' rs:basecolumn='A0241'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='68'/>
+		</s:AttributeType>
+		<s:AttributeType name='A0241A' rs:number='10' rs:nullable='true' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='A02' rs:basecolumn='A0241A'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='70'/>
+		</s:AttributeType>
+		<s:AttributeType name='A0243' rs:number='11' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='A02' rs:basecolumn='A0243' rs:keycolumn='true'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='8' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='A0247' rs:number='12' rs:nullable='true' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='A02' rs:basecolumn='A0247'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='9'/>
+		</s:AttributeType>
+		<s:AttributeType name='A0263' rs:number='13' rs:nullable='true' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='A02' rs:basecolumn='A0263'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='68'/>
+		</s:AttributeType>
+		<s:AttributeType name='A0265' rs:number='14' rs:nullable='true' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='A02' rs:basecolumn='A0265'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='8'/>
+		</s:AttributeType>
+		<s:extends type='rs:rowbase'/>
+	</s:ElementType>
+</s:Schema>
+<rs:data>
+</rs:data>
+</xml>

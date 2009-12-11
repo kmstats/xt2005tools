@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="com.echo.XT2007.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="XT2005ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Provider=MSDASQL.1;Persist Security Info=False;Extended Properties='';Driver={Kingbase ODBC driver};database=XT2007;server=192.168.0.1;port=55321;uid=SYSTEM;PWD=MANAGER;&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Provider=MSDASQL.1;Persist Security Info=False;Extended Properties='';Driver={Kingbase ODBC driver};database=XT2007;server=192.168.0.1;port=55321;uid=SYSTEM;PWD=MANAGER;</Value>
+    </Setting>
+    <Setting Name="XT2007ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Driver={Kingbase ODBC driver};provider=MSDASQL.1;persist security info=False;extended properties='';database=XT2007;server=192.168.0.1;port=55321;uid=SYSTEM;pwd=MANAGER&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.Odbc&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Driver={Kingbase ODBC driver};provider=MSDASQL.1;persist security info=False;extended properties='';database=XT2007;server=192.168.0.1;port=55321;uid=SYSTEM;pwd=MANAGER</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

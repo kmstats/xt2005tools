@@ -1,0 +1,36 @@
+<xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'
+	xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'
+	xmlns:rs='urn:schemas-microsoft-com:rowset'
+	xmlns:z='#RowsetSchema'>
+<s:Schema id='RowsetSchema'>
+	<s:ElementType name='row' content='eltOnly' rs:updatable='true'>
+		<s:AttributeType name='A0000' rs:number='1' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='C06' rs:basecolumn='A0000' rs:keycolumn='true'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='C0601' rs:number='2' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='C06' rs:basecolumn='C0601' rs:keycolumn='true'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='8' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='C0602' rs:number='3' rs:nullable='true' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='C06' rs:basecolumn='C0602'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='8'/>
+		</s:AttributeType>
+		<s:AttributeType name='C0603' rs:number='4' rs:nullable='true' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='C06' rs:basecolumn='C0603'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='9'/>
+		</s:AttributeType>
+		<s:AttributeType name='C0604' rs:number='5' rs:nullable='true' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='C06' rs:basecolumn='C0604'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='9'/>
+		</s:AttributeType>
+		<s:AttributeType name='C0607' rs:number='6' rs:nullable='true' rs:write='true' rs:basecatalog='XT2007' rs:baseschema='PUBLIC'
+			 rs:basetable='C06' rs:basecolumn='C0607'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='9'/>
+		</s:AttributeType>
+		<s:extends type='rs:rowbase'/>
+	</s:ElementType>
+</s:Schema>
+<rs:data>
+</rs:data>
+</xml>

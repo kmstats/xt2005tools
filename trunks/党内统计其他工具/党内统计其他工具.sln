@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "上报信息整理", "上报信息整理\上报信息整理.csproj", "{20B2A795-B31B-4559-9B02-A216E3B23B46}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "上报信息整理安装", "ClearRAR_Setup\ClearRAR_Setup.vdproj", "{54AC274C-A11A-4C36-9C4D-2C92AB7F6773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EchoLib", "EchoLib\EchoLib.csproj", "{F10E3168-0A96-4AC8-A1E3-7E0E25511ED5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "党统建库检查", "党统建库检查\党统建库检查.csproj", "{1FB3BC98-04E5-4177-AF9E-619E738BFC19}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F10E3168-0A96-4AC8-A1E3-7E0E25511ED5} = {F10E3168-0A96-4AC8-A1E3-7E0E25511ED5}
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "党统建库检查安装", "党统建库检查安装\党统建库检查安装.vdproj", "{503CD903-05D8-47F2-A279-49A1B68244BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "党员党组织信息库查询", "党员党组织信息库查询\党员党组织信息库查询.csproj", "{5FFA4764-D1DC-4BD6-B7D6-10BA3F90BF67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "党统建库检查V2", "党统建库检查V2\党统建库检查V2.csproj", "{D75A99E2-7F55-45EB-B690-B84DF10BA00A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "党统建库检查V2安装", "党统建库检查V2安装\党统建库检查V2安装.vdproj", "{EFF3EAA8-4069-4C4C-828F-905B888809AD}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20B2A795-B31B-4559-9B02-A216E3B23B46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20B2A795-B31B-4559-9B02-A216E3B23B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20B2A795-B31B-4559-9B02-A216E3B23B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20B2A795-B31B-4559-9B02-A216E3B23B46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54AC274C-A11A-4C36-9C4D-2C92AB7F6773}.Debug|Any CPU.ActiveCfg = Debug
+		{54AC274C-A11A-4C36-9C4D-2C92AB7F6773}.Release|Any CPU.ActiveCfg = Release
+		{F10E3168-0A96-4AC8-A1E3-7E0E25511ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F10E3168-0A96-4AC8-A1E3-7E0E25511ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F10E3168-0A96-4AC8-A1E3-7E0E25511ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F10E3168-0A96-4AC8-A1E3-7E0E25511ED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FB3BC98-04E5-4177-AF9E-619E738BFC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB3BC98-04E5-4177-AF9E-619E738BFC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB3BC98-04E5-4177-AF9E-619E738BFC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB3BC98-04E5-4177-AF9E-619E738BFC19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{503CD903-05D8-47F2-A279-49A1B68244BD}.Debug|Any CPU.ActiveCfg = Debug
+		{503CD903-05D8-47F2-A279-49A1B68244BD}.Release|Any CPU.ActiveCfg = Release
+		{5FFA4764-D1DC-4BD6-B7D6-10BA3F90BF67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FFA4764-D1DC-4BD6-B7D6-10BA3F90BF67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FFA4764-D1DC-4BD6-B7D6-10BA3F90BF67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FFA4764-D1DC-4BD6-B7D6-10BA3F90BF67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D75A99E2-7F55-45EB-B690-B84DF10BA00A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D75A99E2-7F55-45EB-B690-B84DF10BA00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D75A99E2-7F55-45EB-B690-B84DF10BA00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D75A99E2-7F55-45EB-B690-B84DF10BA00A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFF3EAA8-4069-4C4C-828F-905B888809AD}.Debug|Any CPU.ActiveCfg = Debug
+		{EFF3EAA8-4069-4C4C-828F-905B888809AD}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
